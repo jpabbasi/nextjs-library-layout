@@ -1,6 +1,6 @@
 import Section from './Section';
 
-const TemplateGrid = ({ title, subTitle, templates, onSelect }) => {
+const TemplateGrid = ({ templates, onSelect }) => {
     return (
         <Section
             templates={templates}
