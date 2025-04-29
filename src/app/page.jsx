@@ -18,10 +18,10 @@ export default function TemplateLibrary() {
   const { filteredTemplates, featuredContent } = useTemplateFilter(searchTerm, activeTab);
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#f8f9fb] px-4">
+    <div className="flex flex-col min-h-screen bg-[#f8f9fb]">
       <Header />
 
-      <main className="flex-grow max-w-5xl container mx-auto py-1">
+      <main className="flex-grow max-w-5xl container mx-auto py-1  px-4">
         <div className="mb-7 mx-auto">
           <SearchBar
             value={searchTerm}
