@@ -18,7 +18,7 @@ export default function TemplateLibrary() {
   const { filteredTemplates, featuredContent } = useTemplateFilter(searchTerm, activeTab);
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#f8f9fb]">
+    <div className="flex flex-col min-h-screen bg-[#f8f9fb] px-4">
       <Header />
 
       <main className="flex-grow max-w-5xl container mx-auto py-1">
